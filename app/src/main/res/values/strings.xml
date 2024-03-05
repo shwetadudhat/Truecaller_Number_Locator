@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Truecaller Number Locator</string>
+
+    <string name="ad_appid">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="start_screen_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="category_screen_banner">ca-app-pub-3940256099942544/6300978111</string>
+
+<!--    <string name="caller_id_native">ca-app-pub-3940256099942544/2247696110</string>-->
+    <string name="setting_screen_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="exit_screen_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="device_details_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="check_balance_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="sim_info_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="locationinfo_activity_interstitial">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="sim_card_info_interstitial">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="interstitialADID">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="enter_number">Enter Mobile Number</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="indoor">Indoor</string>
+    <string name="terrain">Terrain</string>
+    <string name="satellite">Satellite</string>
+    <string name="traffic_finder">Traffic</string>
+    <string name="my_location">My Location</string>
+    <string name="buildings">Buildings</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="none_map">None</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the my location feature, which shows your current location on the map</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the my location layer. Please try again and grant access to use the location</string>
+    <string name="call_popup">Call</string>
+    <string name="save_popup">Save</string>
+    <string name="gps_network_not_enabled">Gps network not available</string>
+    <string name="open_location_settings">Enable Location</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

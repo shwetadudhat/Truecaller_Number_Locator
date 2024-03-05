@@ -1,0 +1,4 @@
+rootProject.name = "Truecaller Number Locator"
+include ':app'
+include ':ads'
+include ':nativetemplates'

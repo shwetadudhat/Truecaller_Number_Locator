@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:title=""
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:theme="@style/Toolbar"
+        app:title="">
+
+        <RelativeLayout
+            android:id="@+id/rlActionbar"
+            android:layout_width="match_parent"
+            android:background="@drawable/actionbar_bg"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/ic_back_btn"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_back"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/actionbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_toRightOf="@+id/ic_back_btn"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

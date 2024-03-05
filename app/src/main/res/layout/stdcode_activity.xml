@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/main_bg_color"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_layout" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/banner_container"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/area_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:hint="Enter STD Code or City Name"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/edittext_hint_color"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/area_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#b2b1b1b1"
+            android:layout_marginTop="@dimen/_minus5sdp"
+            android:dividerHeight="1px"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+</RelativeLayout>
